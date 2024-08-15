@@ -1,0 +1,11 @@
+## for=>continue_statement
+#### for=>continue_statement
+An example for using for
+```
+fruits = ['apple', 'banana', 'cherry']
+for x in fruits:
+ print(x)
+ if x == 'banana':
+   continue
+ print(x)
+```

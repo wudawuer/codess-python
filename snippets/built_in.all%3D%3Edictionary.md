@@ -1,0 +1,11 @@
+## built_in.all=>dictionary
+#### built_in.all=>dictionary
+An example for using all with dictionary
+```
+mydict = {0 : 'Apple', 1 : 'Orange'}
+x = all(mydict)
+print(x)
+
+# Returns False because the first key is false.
+# For dictionaries the all() function checks the keys, not the values.
+```
